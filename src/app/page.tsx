@@ -1,10 +1,15 @@
+'use client'
+import React from 'react'
+
 import About from '@/components/about'
+import Experience from '@/components/experience'
+import Footer from '@/components/footer'
 
 export default function Home() {
   return (
-    <main className='relative min-h-screen bg-base'>
+    <main className='relative min-h-screen bg-base overflow-x-hidden'>
       <div className='flex justify-center py-20 px-5'>
-        <div className='h-screen lg:w-[786px] w-full'>
+        <div className='h-full lg:w-[786px] w-full'>
           <div className='flex items-center'>
             <div className='glitch h-16 w-16 mr-5'></div>
             <div>
@@ -13,6 +18,8 @@ export default function Home() {
             </div>
           </div>
           <About />
+          <Experience />
+          <Footer />
         </div>
       </div>
     </main>

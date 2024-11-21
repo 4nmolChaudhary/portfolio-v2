@@ -15,6 +15,11 @@ body::-webkit-scrollbar-thumb {
   background-size: cover;
   animation: glitch 2s infinite steps(1);
 }
+.sticker {
+  background: url('../images/stickers/react-sticker.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 @keyframes glitch {
   0%,
   100% {
