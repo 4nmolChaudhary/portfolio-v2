@@ -1,6 +1,8 @@
 'use client'
 import React from 'react'
-import { mono } from '@/helpers/mono-font'
+
+import MonoFont from '@/components/ui/mono-font'
+
 import Image from 'next/image'
 import IndiaFlag from '@/images/IN.png'
 
@@ -11,7 +13,7 @@ const About = () => {
   return (
     <div className='pt-8 gap-16 grid'>
       <div className='gap-4 grid'>
-        <div className={`${mono.className} text-black/50 text-sm`}>shortly</div>
+        <MonoFont text='shortly' />
         <div className='text-sm pr-8 pb-8 border-b border-dashed border-black/10'>
           <div>I'm a Designer and Developer working mainly with React, Next.js, and many others. Passionate about what I do, I get fully involved in every project, with a particular focus on design</div>
           <div className='text-sm mt-6 flex items-center'>

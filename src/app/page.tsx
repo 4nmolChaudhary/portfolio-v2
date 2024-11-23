@@ -1,9 +1,9 @@
-'use client'
 import React from 'react'
 
 import About from '@/components/about'
 import Experience from '@/components/experience'
 import Footer from '@/components/footer'
+import Work from '@/components/work'
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
           </div>
           <About />
           <Experience />
+          <Work />
           <Footer />
         </div>
       </div>
