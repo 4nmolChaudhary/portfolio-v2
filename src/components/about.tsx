@@ -15,9 +15,9 @@ const About = () => {
       <div className='gap-4 grid'>
         <MonoFont text='shortly' />
         <div className='text-sm pr-8 pb-8 border-b border-dashed border-black/10'>
-          <div>I'm a Designer and Developer working mainly with React, Next.js, and many others. Passionate about what I do, I get fully involved in every project, with a particular focus on design</div>
+          <div>{`I'm a Designer and Developer working mainly with React, Next.js, and many others. Passionate about what I do, I get fully involved in every project, with a particular focus on design`}</div>
           <div className='text-sm mt-6 flex items-center'>
-            <div className='mr-1'>Based in Ahmedabad, India</div>
+            <div className='mr-1'>{`Based in Ahmedabad, India`}</div>
             <Image src={IndiaFlag} alt='IN' width={18} height={16} />
           </div>
           <div className='opacity-50'>Local Time {formatter.format(date)?.slice(12, 17)} (IST)</div>

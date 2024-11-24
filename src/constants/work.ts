@@ -9,4 +9,9 @@ export const work = [
     at: 'Compliance Foundry',
     image: 'mockup-shot-2.png',
   },
+  {
+    title: 'Asset management and maintenance for electrical components',
+    at: 'eGalvanic',
+    image: 'mockup-shot-2.png',
+  },
 ]
