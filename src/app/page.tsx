@@ -4,6 +4,7 @@ import About from '@/components/about'
 import Experience from '@/components/experience'
 import Footer from '@/components/footer'
 import Work from '@/components/work'
+import Connect from '@/components/connect'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <About />
           <Experience />
           <Work />
+          <Connect />
           <Footer />
         </div>
       </div>
