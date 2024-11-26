@@ -14,7 +14,7 @@ const ExperienceBlock = ({ start, end, title, company, link }: ExperienceProps) 
       <div className='opacity-50'>
         {start} - {end}
       </div>
-      <div className='flex items-center'>
+      <div className='flex sm:flex-row sm:items-center flex-col items-start'>
         <div className='mr-1'>{title}</div>
         <div className='opacity-50'>@{company}</div>
       </div>
