@@ -9,7 +9,7 @@ const Work = () => {
     <div className='pt-6 pb-8 border-b border-dashed border-black/10'>
       <MonoFont text='work' />
       {work.map((w, index) => (
-        <WorkBlock key={`work-block-${index}`} index={index + 1} title={w.title} at={w.at} />
+        <WorkBlock key={`work-block-${index}`} id={w.id} index={index + 1} title={w.title} at={w.at} />
       ))}
     </div>
   )
