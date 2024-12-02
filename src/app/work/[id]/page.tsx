@@ -2,10 +2,13 @@ import React from 'react'
 import MonoFont from '@/components/ui/mono-font'
 
 import { work } from '@/constants/work'
+import { techStackItems } from '@/constants/tech-stack-items'
+
+import TechStack from '@/components/blocks/tech-stack'
 
 export default function Page({ params }: { params: { id: string } }) {
   const workInfo = work.find(d => d.id === params?.id)
-
+  const stackItems = techStackItems.filter(d => workInfo?.techstack?.includes(d.id))
   return (
     <div>
       <div className='mb-2'>
@@ -23,6 +26,14 @@ export default function Page({ params }: { params: { id: string } }) {
           <a className='opacity-50 underline' target='_blank' href={workInfo?.website}>
             {workInfo?.website}
           </a>
+        </div>
+        <div className=''>
+          <div className='mb-1'>Tech Stack</div>
+          <div className='flex gap-1'>
+            {stackItems?.map(d => (
+              <TechStack key={d.id} imageURL={d.imageURL} name={d?.name} />
+            ))}
+          </div>
         </div>
       </div>
       <div className='w-full aspect-video'>

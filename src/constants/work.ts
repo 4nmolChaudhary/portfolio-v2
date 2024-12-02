@@ -8,7 +8,7 @@ export const work = [
     year: '2024',
     website: 'https://netanalytics.xyz',
     work: 'As the lead for the complete redesign and development of the web application, I spearheaded the project from end to end, encompassing UI/UX design, architectural planning, and full development. I collaborated closely with team to ensure a scalable, user-centric, and high-performance solution, delivering a seamless and modernized user experience',
-    techstack: [],
+    techstack: ['react', 'next', 'tailwind'],
   },
   {
     title: 'Real Time compliane scanning for SOC2 for AWS cloud',
