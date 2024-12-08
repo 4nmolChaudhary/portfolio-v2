@@ -43,11 +43,6 @@ export default function Page({ params }: { params: { id: string } }) {
         <div className='mr-3'>Role and Responsibilities</div>
         <div className='opacity-50'>{workInfo?.work}</div>
       </div>
-      <div className='grid auto-rows-[192px] grid-cols-3 gap-4 mt-4'>
-        {[...Array(4)].map((_, i) => (
-          <div key={i} className={`row-span-1 rounded-md border-2 border-slate-400/10 bg-neutral-100 p-4 dark:bg-neutral-900 ${i === 1 || i === 2 ? 'col-span-2' : ''}`}></div>
-        ))}
-      </div>
     </div>
   )
 }

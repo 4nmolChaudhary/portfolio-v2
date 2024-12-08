@@ -45,8 +45,58 @@ export const techStackItems = [
     imageURL: 'https://d26c7l40gvbbg2.cloudfront.net/tool_icons/javascript.svg',
   },
   {
+    id: 'ts',
+    name: 'TypeScript',
+    imageURL: 'https://d26c7l40gvbbg2.cloudfront.net/tool_icons/typescript.svg',
+  },
+  {
+    id: 'zustand',
+    name: 'Zustand',
+    imageURL: 'https://zustand-demo.pmnd.rs/logo192.png',
+  },
+  {
     id: 'css',
     name: 'CSS',
     imageURL: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+  },
+  {
+    id: 'figma',
+    name: 'Figma',
+    imageURL: 'https://d26c7l40gvbbg2.cloudfront.net/tool_icons/figma.svg',
+  },
+  {
+    id: 'nodejs',
+    name: 'Node JS',
+    imageURL: 'https://d26c7l40gvbbg2.cloudfront.net/tool_icons/nodejs.svg',
+  },
+  {
+    id: 'express',
+    name: 'Express',
+    imageURL: 'https://expressjs.com/images/favicon.png',
+  },
+  {
+    id: 'graphql',
+    name: 'Graph QL',
+    imageURL: 'https://d26c7l40gvbbg2.cloudfront.net/tool_icons/graphql.svg',
+  },
+  {
+    id: 'postgres',
+    name: 'PostgreSQL',
+    imageURL: 'https://d26c7l40gvbbg2.cloudfront.net/tool_icons/postgresql.svg',
+  },
+  {
+    id: 'apollo',
+    name: 'Apollo',
+    imageURL: 'https://www.apollographql.com/docs/favicon.svg',
+  },
+  {
+    id: 'sequelize',
+    name: 'Sequelize',
+    imageURL: 'https://sequelize.org/img/logo.svg',
+  },
+  {
+    id: 'aws-sdk',
+    name: 'AWS-SDK',
+    imageURL: 'https://d26c7l40gvbbg2.cloudfront.net/tool_icons/aws.svg',
   },
 ]
