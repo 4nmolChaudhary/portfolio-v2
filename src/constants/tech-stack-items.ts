@@ -99,4 +99,44 @@ export const techStackItems = [
     name: 'AWS-SDK',
     imageURL: 'https://d26c7l40gvbbg2.cloudfront.net/tool_icons/aws.svg',
   },
+  {
+    id: 'vite',
+    name: 'Vite',
+    imageURL: 'https://vite.dev/logo.svg',
+  },
+  {
+    id: 'redux',
+    name: 'Redux',
+    imageURL: 'https://redux.js.org/img/redux.svg',
+  },
+  {
+    id: 'mui',
+    name: 'MUI',
+    imageURL: 'https://mui.com/static/icons/192x192.png',
+  },
+  {
+    id: 'xlsx',
+    name: 'SheetJS',
+    imageURL: 'https://sheetjs.com/sketch128.png',
+  },
+  {
+    id: 'jspdf',
+    name: 'jsPDF',
+    imageURL: 'https://camo.githubusercontent.com/7ca5e5ac9d754e50095619448a539a3fdaf92a2ac0a0a6425487989119baf688/68747470733a2f2f706172616c6c2e61782f706172616c6c61782d323031362f696d672f7376672f6a737064662d6c6f676f2e737667',
+  },
+  {
+    id: 'formio',
+    name: 'Form.io',
+    imageURL: 'https://form.io/wp-content/themes/formio/favicon.png',
+  },
+  {
+    id: 'recharts',
+    name: 'Recharts',
+    imageURL: '',
+  },
+  {
+    id: 'bootstrap',
+    name: 'Bootstrap',
+    imageURL: 'https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png',
+  },
 ]

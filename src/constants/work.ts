@@ -18,7 +18,8 @@ export const work = [
     year: 'JAN 2024 - APR 2024',
     website: 'https://cloudscanner.rapidsoc2.com/',
     desc: 'fixplianceAI is an API-based private SaaS platform that integrates with any tech stack and makes it easy to fix non-compliant controls across all major compliance frameworks',
-    techstack: ['react', 'next', 'tailwind', 'shadcn', 'ts', 'd3', 'zod', 'hook-form', 'tanstack-query', 'js', 'css', 'figma', 'zustand', 'nodejs', 'express', 'graphql', 'postgres', 'apollo', 'sequelize', 'aws-sdk'],
+    techstack: ['react', 'vite', 'tailwind', 'shadcn', 'ts', 'd3', 'zod', 'hook-form', 'tanstack-query', 'js', 'css', 'figma', 'zustand', 'nodejs', 'express', 'graphql', 'postgres', 'apollo', 'sequelize', 'aws-sdk'],
+    work: 'Worked as a fullstack developer leading the complete Wireframing, Prototyping, UI Design and complete web app frontend development, along with the leading one backend module from database design to API creation using GraphQL and Node JS',
   },
   {
     title: 'Asset management and maintenance for electrical components',
@@ -27,5 +28,8 @@ export const work = [
     id: 'e-galvanic',
     year: '2020 - 2023',
     website: 'https://democompany.egalvanic.com/',
+    desc: 'eGalvanic help electrical maintenance and testing companies across critical markets gain a competitive advantage by managing their data efficiently, effectively and sustainably.',
+    techstack: ['react', 'bootstrap', 'mui', 'redux', 'd3', 'js', 'css', 'figma', 'aws-sdk', 'formio', 'jspdf', 'xlsx', 'recharts'],
+    work: 'Worked as a lead UI designer and React developer leading the complete web app frontend development, along with the other major utitlity feature such as exporting Form.io filled forms to PDF using jsPDF and to spreadsheets',
   },
 ]
