@@ -139,4 +139,9 @@ export const techStackItems = [
     name: 'Bootstrap',
     imageURL: 'https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png',
   },
+  {
+    id: 'wss',
+    name: 'Websockets',
+    imageURL: 'https://static-00.iconduck.com/assets.00/brand-websocket-icon-2048x1537-kfk33etu.png',
+  },
 ]
