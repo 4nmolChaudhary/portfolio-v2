@@ -18,10 +18,6 @@ export default function Page({ params }: { params: { id: string } }) {
       </div>
       <div className='mb-2'>
         <div className='flex items-center mb-2'>
-          <div className='mr-3'>Year</div>
-          <div className='opacity-50'>{workInfo?.year}</div>
-        </div>
-        <div className='flex items-center mb-2'>
           <div className='mr-3'>Website</div>
           <a className='opacity-50 underline' target='_blank' href={workInfo?.website}>
             {workInfo?.website}

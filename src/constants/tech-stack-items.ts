@@ -37,7 +37,7 @@ export const techStackItems = [
   {
     id: 'tanstack-query',
     name: 'Tanstack Query',
-    imageURL: 'https://tanstack.com/_build/assets/logo-color-100w-br5_Ikqp.png',
+    imageURL: 'https://tanstack.com/assets/logo-color-100w-br5_Ikqp.png',
   },
   {
     id: 'js',
